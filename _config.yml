@@ -14,7 +14,7 @@ locale                   : "en"
 title                    : "Mohannad Alhanahnah"
 title_separator          : "-"
 name                     : "Mohannad Alhanahnah"
-description              : "Co-Founder and CTO at FitStack"
+description              : "Researcher & Entrepreneur"
 url                      : "https://mohannad-cs.netlify.app"  #"https://aasiaeet.netlify.com" 
 repository               : #"aasiaeet/aasiaeet.github.io" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -70,7 +70,7 @@ analytics:
 author:
   name             : "Mohannad Alhanahnah"
   avatar           : "/assets/images/mohannad.jpeg"
-  bio              : "Co-Founder and CTO at FitStack"
+  bio              : "Researcher & Entrepreneur"
   location         : 
   email            : mohannad.alhanahnah@gmail.com
   uri              :
