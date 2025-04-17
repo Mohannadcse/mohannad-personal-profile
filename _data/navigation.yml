@@ -10,4 +10,7 @@ main:
     url: /teaching
   - title: "Blog"
     url: /blog
+  - title: "Misc"
+    url: /misc
+
 
