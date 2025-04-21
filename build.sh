@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "👉 Installing bundler version 2.4.22"
+echo "👉 Installing correct bundler version..."
 gem install bundler -v 2.4.22
 
-echo "👉 Installing gems"
-bundle _2.4.22_ config set path 'vendor/bundle'
-bundle _2.4.22_ install
+echo "👉 Installing project gems..."
+bundle config set path 'vendor/bundle'
+bundle install
 
-echo "👉 Building Jekyll site"
-bundle _2.4.22_ exec jekyll build
+echo "👉 Building the Jekyll site..."
+bundle exec jekyll build
