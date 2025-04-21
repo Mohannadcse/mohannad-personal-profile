@@ -194,8 +194,9 @@ whitelist:
 
   
 scholar:
-  style: apa
-  locale: en
+  label: "Google Scholar"
+  icon: "fas fa-graduation-cap"
+  url: "https://scholar.google.com/citations?user=OD8hydoAAAAJ&hl=en"
 
   sort_by: none
   order: descending
