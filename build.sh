@@ -1,14 +1,11 @@
 #!/bin/bash
 
-# Upgrade RubyGems before anything else
-gem update --system --no-document
-
-# Ensure bundler is up-to-date and locked in
+echo "👉 Installing bundler version 2.4.22"
 gem install bundler -v 2.4.22
 
-# Install dependencies
-bundle config set path 'vendor/bundle'
-bundle install
+echo "👉 Installing gems"
+bundle _2.4.22_ config set path 'vendor/bundle'
+bundle _2.4.22_ install
 
-# Build the site
-bundle exec jekyll build
+echo "👉 Building Jekyll site"
+bundle _2.4.22_ exec jekyll build
