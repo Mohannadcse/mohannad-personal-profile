@@ -71,35 +71,14 @@ author:
   name             : "Mohannad Alhanahnah"
   avatar           : "/assets/images/mohannad.jpeg"
   bio              : "Researcher & Entrepreneur"
-  location         : 
   email            : mohannad.alhanahnah@gmail.com
-  uri              :
-  home             :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "Mohannadcse"
-  gitlab           :
-  graduation-cap:
-    label: "Google Scholar"
-    url: "https://scholar.google.com/citations?user=OD8hydoAAAAJ&hl=en"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
   linkedin         : "engmohannad"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
   twitter          : "malhanahnah"
-  vine             :
-  weibo            :
-  xing             :
+  google_scholar:
+    label: "Google Scholar"
+    icon: "fas fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=OD8hydoAAAAJ&hl=en"
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
