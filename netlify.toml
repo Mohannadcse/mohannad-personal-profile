@@ -1,7 +1,5 @@
-# netlify.toml
-
 [build]
-  command = "bundle config set path 'vendor/bundle' && gem update --system && bundle install && bundle exec jekyll build"
+  command = "./build.sh"
   publish = "_site"
 
 [build.environment]
