@@ -1,0 +1,8 @@
+# netlify.toml
+
+[build]
+  command = "bundle config set path 'vendor/bundle' && gem update --system && bundle install && bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "2.7.6"
