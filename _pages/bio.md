@@ -4,7 +4,15 @@ permalink: /bio/
 author_profile: true
 title: Extended Bio
 ---
-Mohannad Alhanahnah is a software security researcher and entrepreneur. He's a Co-founder and CTO at [FitStack](https://www.fitstack.dev/). FitStack is funded by [Wisconsin Alumni Research Foundation (WARF)](https://www.warf.org/). Mohannad was a postdoctoral researcher at the University of Wisconsin-Madison working with [Prof. Somesh Jha](https://pages.cs.wisc.edu/~jha/) and [Prof. Thomas Reps](https://pages.cs.wisc.edu/~reps/) on software debloating. Mohannad's research interests revolve around leveraging program analysis techniques for assessing and boosting application security. Mohannad completed his PhD in Computer Engineering at the University of Nebraska-Lincoln under the supervision of [Dr. Hamid Bagheri](https://cse.unl.edu/~hbagheri/) and [Dr. Qiben Yan](https://cse.msu.edu/~qyan/) and obtained MSc in Computer Security from the University of Kent. Mohannad worked as a researcher at iTrust lab at the Singapore University of Technology and Design and contributed to the development of Internet of Things Automatic Security Testbed. Mohannad worked also at Eindhoven University of Technology where he contributed to AU2EU. Mohannad received ACM SIGSOFT distinguished paper award and (ISC)2 graduate scholarship.
+Mohannad Alhanahnah is a software security researcher and entrepreneur. He currently serves as a Scientist in the Cybersecurity group at Qatar Computing Research Institute. Previously, he was an Assistant Professor in the CSE Department at Chalmers University of Technology and the University of Gothenburg.
+
+Mohannad is Co-founder and CTO at [FitStack](https://www.fitstack.dev/), a container debloating platform funded by [Wisconsin Alumni Research Foundation (WARF)](https://www.warf.org/). Prior to his current roles, he was a postdoctoral researcher at the University of Wisconsin-Madison working with [Prof. Somesh Jha](https://pages.cs.wisc.edu/~jha/) and [Prof. Thomas Reps](https://pages.cs.wisc.edu/~reps/) on software debloating.
+
+Mohannad's research interests revolve around leveraging program analysis techniques for assessing and boosting application security. He completed his PhD in Computer Engineering at the University of Nebraska-Lincoln under the supervision of [Dr. Hamid Bagheri](https://cse.unl.edu/~hbagheri/) and [Dr. Qiben Yan](https://cse.msu.edu/~qyan/) and obtained MSc in Computer Security from the University of Kent. 
+
+Mohannad also worked as a researcher at iTrust lab at the Singapore University of Technology and Design where he contributed to the development of Internet of Things Automatic Security Testbed, and at Eindhoven University of Technology where he contributed to AU2EU. 
+
+Mohannad received ACM SIGSOFT Distinguished Paper Award (ISSTA'20), DSN Distinguished Artifact Award (2025), and (ISC)² graduate scholarship.
 
 
 Research Areas:

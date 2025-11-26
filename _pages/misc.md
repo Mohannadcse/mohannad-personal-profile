@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Welcome to the Miscellaneous section!  
-Here you'll find extra resources or references related to my work or presentations.
+Here you'll find extra resources, references, and security news related to my work.
 
 ---
 
@@ -24,3 +24,13 @@ Here you'll find extra resources or references related to my work or presentatio
     ⬇ Download PDF
   </a>
 </div>
+
+---
+
+### 🔐 Security News Feed
+
+Stay updated with the latest cybersecurity news:
+
+<iframe
+  src="//rss.bloople.net/?url=https%3A%2F%2Ffeeds.feedburner.com%2FTheHackersNews&limit=15&showicon=true&type=html" width="100%" height="600" style="border: 1px solid #ddd; border-radius: 5px;">
+</iframe>
