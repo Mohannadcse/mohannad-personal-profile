@@ -22,7 +22,9 @@ I reviewed 20 papers across two cycles at IEEE S&P 2026 — only 2 were accepted
 
 Serving on the program committee of a top security venue is one of the better ways to understand what separates accepted papers from rejected ones — not in the abstract, but in practice, paper by paper. This past cycle I had the opportunity to be on the PC for IEEE S&P 2026, and the experience left me with a lot to think about.
 
-Two things stood out enough that I felt compelled to write them down. The first is a pattern I noticed across the submitted papers: many of them reported real, previously unknown vulnerabilities, but that was not enough to get them accepted. The second is the experiment I ran in parallel — using LLMs as reviewing assistants for every single paper — and what I observed about where they helped and where they failed.
+This is not my first time reviewing for a top-tier security conference — I have previously served as a reviewer for CCS and USENIX Security. But this cycle felt different in ways that reflect where security research is heading. A striking majority of the papers I reviewed used AI — LLMs in particular — as a core tool for discovering unknown vulnerabilities. That is a clear shift from what I observed in previous cycles. On my end, I also used LLMs as assistants throughout the review process, which taught me something about how these tools behave when put to that task.
+
+Three things stood out enough that I felt compelled to write them down: why papers that found real vulnerabilities still got rejected, how AI is reshaping the way vulnerability research is conducted, and what I learned from using LLMs to assist with my own reviews.
 
 Neither observation is meant as a critique of any individual paper or author. Security research is hard, and submitting to a top-4 venue takes courage. These are simply patterns worth naming.
 
@@ -33,9 +35,9 @@ Over two review cycles, I reviewed a total of 20 papers:
 - **Cycle 1:** 10 papers — 7 Round 1 (R1) and 3 Round 2 (R2)
 - **Cycle 2:** 10 papers — 7 Round 1 (R1) and 3 Round 2 (R2)
 
-Of those 20 papers, **only 2 were accepted**.
+Of those 20 papers, **only 2 were accepted** — a 10% rate across my personal batch.
 
-That 10% acceptance rate is not unusual for S&P, but experiencing it as a reviewer rather than as an author changes how you interpret it. Rejection at this rate is not a sign that the work is bad — it often means the work is good but incomplete in ways that matter.
+For context, the overall conference acceptance rates were higher: Cycle 1 accepted 118 of 925 submissions (12.7%), and Cycle 2 accepted 135 of 1070 submissions (12.6%). My batch happened to be more competitive, but the broader picture is consistent: roughly 1 in 8 papers submitted to S&P makes it through. Experiencing that as a reviewer rather than as an author changes how you interpret it. Rejection at this rate is not a sign that the work is bad — it often means the work is good but incomplete in ways that matter.
 
 ## Observation 1: Discovering Unknown Vulnerabilities Is Not Enough
 
