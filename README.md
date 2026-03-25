@@ -1,6 +1,6 @@
 # Mohannad Alhanahnah — Personal Website
 
-Personal academic website of [Mohannad Alhanahnah](https://mohannadcse.github.io/mohannad-personal-profile/), Scientist at Qatar Computing Research Institute (QCRI/HBKU).
+Personal academic website of [Mohannad Alhanahnah](https://mohannadcse.github.io), Scientist at Qatar Computing Research Institute (QCRI/HBKU).
 
 Built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com/alshedivat/al-folio) theme. Hosted on [GitHub Pages](https://pages.github.com/).
 
@@ -15,4 +15,4 @@ Then open http://localhost:4000/
 ## Deployment
 
 Pushing to `main` automatically deploys via GitHub Actions to:
-https://mohannadcse.github.io/mohannad-personal-profile/
+https://mohannadcse.github.io
