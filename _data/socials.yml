@@ -1,0 +1,10 @@
+# Social links shown under the profile picture and in the about page
+# Rendered by the jekyll-socials plugin in order defined here
+
+cv_pdf: /mohannad-personal-profile/assets/pdf/CV_Mohannad.pdf
+email: mohannad.alhanahnah@gmail.com
+github_username: Mohannadcse
+linkedin_username: engmohannad
+twitter_username: malhanahnah
+scholar_userid: OD8hydoAAAAJ
+rss_icon: true
