@@ -10,7 +10,7 @@ Built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com
 docker compose -f docker-compose-local.yml up
 ```
 
-Then open http://localhost:4000/mohannad-personal-profile/
+Then open http://localhost:4000/
 
 ## Deployment
 

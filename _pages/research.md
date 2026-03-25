@@ -56,4 +56,4 @@ Analyzing security vulnerabilities in Android applications, particularly inter-a
 
 ---
 
-For the complete publication list, see [Publications](/mohannad-personal-profile/publications/).
+For the complete publication list, see [Publications](publications/).

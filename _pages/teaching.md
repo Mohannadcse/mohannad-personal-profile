@@ -15,4 +15,4 @@ nav_order: 6
 
 ## Slides
 
-- [Demystifying the CVE Program](/mohannad-personal-profile/assets/files/Demystifying_CVE_Program.pdf) — An overview of the CVE program, how vulnerabilities are identified, assigned, and published.
+- [Demystifying the CVE Program](assets/files/Demystifying_CVE_Program.pdf) — An overview of the CVE program, how vulnerabilities are identified, assigned, and published.

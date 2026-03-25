@@ -47,21 +47,21 @@ My work extends beyond academic publications to real-world impact. I have secure
 
 - **Android Security** — Inter-app communication and dynamically loaded code vulnerabilities: [[IEEE TIFS'20](https://ieeexplore.ieee.org/abstract/document/9017933), [INFOCOM'19](https://ieeexplore.ieee.org/abstract/document/8737637)]
 
-[→ Full research details](/mohannad-personal-profile/research/) &nbsp;|&nbsp; [→ All publications](/mohannad-personal-profile/publications/)
+[→ Full research details](research/) &nbsp;|&nbsp; [→ All publications](publications/)
 
 ---
 
 ## Impact at a Glance
 
 <div style="text-align: center; margin: 2em 0;">
-  <img src="/mohannad-personal-profile/assets/img/impact.png"
+  <img src="assets/img/impact.png"
        alt="Research impact"
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;"><em>Research Impact at a Glance</em></p>
 </div>
 
 <div style="text-align: center; margin: 2em 0;">
-  <img src="/mohannad-personal-profile/assets/img/research-impact.png"
+  <img src="assets/img/research-impact.png"
        alt="Innovation journey"
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;"><em>Innovation Journey: From idea to real-world impact</em></p>
