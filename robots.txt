@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mohannadcse.github.io/mohannad-personal-profile/sitemap.xml
+Sitemap: https://mohannadcse.github.io/sitemap.xml
