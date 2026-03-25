@@ -15,7 +15,8 @@ title                    : "Mohannad Alhanahnah"
 title_separator          : "-"
 name                     : "Mohannad Alhanahnah"
 description              : "Software Security Researcher & Entrepreneur | AI/Software Supply Chain Security"
-url                      : "https://mohannadcse.netlify.app"
+url                      : "https://mohannadcse.github.io" # GitHub Pages URL
+# baseurl                : "/mohannad-personal-profile"   # Uncomment if NOT using a username.github.io repo
 repository               : "Mohannadcse/mohannad-personal-profile"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
