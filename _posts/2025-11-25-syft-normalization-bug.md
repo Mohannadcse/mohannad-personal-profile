@@ -1,20 +1,17 @@
 ---
-layout: single
-title: "From VEX to Critical Bug"
+layout: post
+title: "From VEX to Critical Bug: How a Single Normalization Mismatch Breaks Supply Chain Trust"
 date: 2025-11-25
-categories: [Security, SBOM, Supply Chain]
-tags: [syft, VEX, vulnerability-scanning, dependency-analysis]
-excerpt: "Single Normalization Mismatch Is Enough to Break the Chain of Trust."
-header:
-  teaser: /assets/images/sbom-chain.jpg
-  overlay_color: "#333"
-toc: true
-toc_label: "Contents"
-toc_icon: "list"
-classes: wide
+description: A subtle normalization mismatch inside an SBOM tool can break dependency relationships even when all packages are detected correctly.
+tags: [syft, VEX, SBOM, supply-chain-security]
+categories: security
+related_posts: false
 ---
 
 ### TL;DR
+
+A subtle normalization mismatch inside an SBOM tool can break dependency relationships even when all packages are detected correctly. When edges between components silently disappear, downstream processes like vulnerability scanning and VEX reasoning become unreliable. This post walks through how such an issue surfaced in Syft, why it happened, and why small normalization inconsistencies pose a serious risk to supply chain security. The Syft team was very responsive and fixed the bug immediately.
+
 
 A subtle normalization mismatch inside an SBOM tool can break dependency relationships even when all packages are detected correctly. When edges between components silently disappear, downstream processes like vulnerability scanning and VEX reasoning become unreliable. This post walks through how such an issue surfaced in Syft, why it happened, and why small normalization inconsistencies pose a serious risk to supply chain security. The Syft team was very responsive and fixed the bug immediately.
 {: .notice--info}

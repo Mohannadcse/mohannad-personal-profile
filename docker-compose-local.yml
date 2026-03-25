@@ -1,0 +1,17 @@
+services:
+  jekyll:
+    image: ruby:3.3.5-slim
+    platform: linux/amd64
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    working_dir: /srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    entrypoint: ["bash", "/srv/jekyll/bin/docker-entrypoint-local.sh"]
+
+volumes:
+  bundle_cache:

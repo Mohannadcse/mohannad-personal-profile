@@ -1,286 +1,312 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 
-minimal_mistakes_skin    : default #"dark" #"default"  #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-##"https://aasiaeet.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#"aasiaeet/aasiaeet"# GitHub username/repo-name .g. "mmistakes/minimal-mistakes"
+title: blank
+first_name: Mohannad
+middle_name:
+last_name: Alhanahnah
+contact_note:
+description: >
+  Software Security Researcher & Entrepreneur | AI and Software Supply Chain Security
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: software security, supply chain security, AI security, LLM, IoT, software debloating
+lang: en
+icon: 🔒
 
-# Site Settings
-locale                   : "en"
-title                    : "Mohannad Alhanahnah"
-title_separator          : "-"
-name                     : "Mohannad Alhanahnah"
-description              : "Software Security Researcher & Entrepreneur | AI/Software Supply Chain Security"
-url                      : "https://mohannadcse.github.io" # GitHub Pages URL
-# baseurl                : "/mohannad-personal-profile"   # Uncomment if NOT using a username.github.io repo
-repository               : "Mohannadcse/mohannad-personal-profile"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 100
-comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+url: https://mohannadcse.github.io
+baseurl: /mohannad-personal-profile
+last_updated: false
+impressum_path:
+back_to_top: true
 
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-  read_more              : "enabled" # if enabled, adds a "read more" link to excerpts 
-search                   : true #, false (default)
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
 
-# Social Sharing
-twitter:
-  username               : "MAlhanahnah"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+external_services:
+  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+
+max_width: 960px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+
+serve_og_meta: true
+serve_schema_org: true
+og_image:
+
+# -----------------------------------------------------------------------------
 # Analytics
-analytics:
-  provider               : "google" #false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-126964841-2
+# -----------------------------------------------------------------------------
 
+google_analytics: # replace with G-XXXXXXXXXX once you have a GA4 property
+google_site_verification:
+bing_site_verification:
 
-# Site Author
-author:
-  name             : "Mohannad Alhanahnah"
-  avatar           : "/assets/images/mohannad.jpeg"
-  bio              : "Researcher & Entrepreneur"
-  location         : 
-  email            : mohannad.alhanahnah@gmail.com
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "Mohannadcse"
-  gitlab           :
-  googlescholar    : "https://scholar.google.com/citations?user=OD8hydoAAAAJ&hl=en"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "engmohannad" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : "malhanahnah"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
 
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  
-highlighter: rouge
+blog_name: Mohannad's Blog
+blog_description: Security research, tools, and insights
+permalink: /blog/:year/:title/
 lsi: false
-excerpt_separator: "\n\n" #"<!--more-->"
-incremental: false
 
+related_blog_posts:
+  enabled: true
+  max_related: 5
 
-# Markdown Processing
+giscus:
+  repo: Mohannadcse/mohannad-personal-profile
+  repo_id:
+  category: Comments
+  category_id:
+  mapping: title
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  dark_theme: dark
+  light_theme: light
+  emit_metadata: 0
+
+disqus_shortname:
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: false
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  teachings:
+    output: true
+    permalink: /teachings/:path/
+  books:
+    output: true
+    permalink: /books/:path/
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: true
+  scrollable: true
+  limit: 3
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
-  hard_wrap: true 
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
+include: ["_pages"]
+exclude:
+  - bin/
+  - CLAUDE.md
+  - README.md
+  - requirements.txt
 
-# Sass/SCSS
+keep_files:
+  - .git
+  - .github
+
 sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins (previously gems:)
 plugins:
-  - jekyll/scholar
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-archives-v2
+  - jekyll-email-protect
   - jekyll-feed
-  #- jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll/scholar
-  - jekyll-paginate
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-scholar
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  #- jemoji
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-toc
+  - jemoji
 
-  
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
 scholar:
+  last_name: [Alhanahnah]
+  first_name: [Mohannad]
   style: apa
   locale: en
-
-  sort_by: none
-  order: descending
-
   source: ./_bibliography
   bibliography: papers.bib
-  bibliography_template: bibtemplate 
-
-  replace_strings: true
-  join_strings:    true
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  repository: /publications
-  repository_file_delimiter: "." 
-  
+  bibliography_template: bib
+  bibliography_list_tag: ul
+  bibtex_skip_fields: [abstract, award, award_name, html, pdf, note, video, code, poster, slides, supp, website, selected, altmetric]
+  sort_by: year
+  order: descending
   query: "@*"
- 
+  group_by: year
+  group_order: descending
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: jekyll-archives
-  path: /categories/
-tag_archive:
-  type: jekyll-archives
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# -----------------------------------------------------------------------------
+# Social links
+# -----------------------------------------------------------------------------
 
-theme: minimal-mistakes-jekyll
+social:
+  name: Mohannad Alhanahnah
+  email: mohannad.alhanahnah@gmail.com
+  github: Mohannadcse
+  linkedin: engmohannad
+  twitter: malhanahnah
+  scholar: https://scholar.google.com/citations?user=OD8hydoAAAAJ&hl=en
+  orcid:
 
+# -----------------------------------------------------------------------------
+# External links
+# -----------------------------------------------------------------------------
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+# -----------------------------------------------------------------------------
+# Pagination
+# -----------------------------------------------------------------------------
+
+pagination:
+  enabled: true
+  size: 5
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    enabled: false
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives (disabled - jekyll-archives-v2 uses different config)
+# -----------------------------------------------------------------------------
+
+jekyll-archives-v2:
+  enabled: []
+
+# -----------------------------------------------------------------------------
 # HTML Compression
-# - http://jch.penibelst.de/
+# -----------------------------------------------------------------------------
+
 compress_html:
   clippings: all
-  ignore:
-    envs: development
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
 
-    
-# Collections
-collections:
-  courses:
-    output: true
-    permalink: /:collection/:path
-    
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: "robots.txt"
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Defaults
+# -----------------------------------------------------------------------------
+
 defaults:
-  # _courses
   - scope:
-      path: ""
-      type: courses
+      path: "assets"
     values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      
-  # _posts
+      sitemap: false
   - scope:
-      path: ""
-      type: posts  
+      path: "_pages"
+      type: pages
     values:
-      layout: single
-      author_profile: true
-      read_time: true 
-      comments: true
-      share: false
-      related: true
+      layout: page
+      permalink: /:basename/
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:year/:title/
+
+# -----------------------------------------------------------------------------
+# Third party libraries (minimal set)
+# -----------------------------------------------------------------------------
+
+third_party_libraries:
+  download: false
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
+  mermaid:
+    integrity:
+      js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
+    version: "10.7.0"

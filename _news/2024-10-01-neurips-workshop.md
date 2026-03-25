@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2024-10-01
+inline: true
+related_posts: false
+---
+
+🔥 Our paper **"DepsRAG: Towards Agentic Reasoning and Planning for Software Dependency Management"** has been accepted to the **NeurIPS'24 Workshop on Open-World Agents**!
