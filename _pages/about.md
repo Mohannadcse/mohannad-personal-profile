@@ -31,21 +31,19 @@ I am currently a Scientist in the Cybersecurity group at the **Qatar Computing R
 
 I completed my PhD in Computer Engineering at the **University of Nebraska-Lincoln**, working with [Dr. Hamid Bagheri](https://cse.unl.edu/~hbagheri/) and [Dr. Qiben Yan](https://cse.msu.edu/~qyan/), and obtained an MSc in Computer Security from the **University of Kent**.
 
-My work extends beyond academic publications to real-world impact. I have secured over **$1.5M in research and commercialization funding**, co-founded a startup ([FitStack](https://www.fitstack.dev)), had tools accepted for **[tech transfer by ONR](https://github.com/siftech/lmcas)**, hold **two issued patents**, and actively contribute to open-source projects such as [Langroid](https://github.com/langroid/langroid).
+My work extends beyond academic publications to real-world impact. I have secured over **$1.5M in research and commercialization funding**, co-founded a startup ([FitStack](https://www.fitstack.dev)), had tools accepted for **[tech transfer by ONR](https://github.com/siftech/lmcas)**, hold **two issued patents**, and contributed to open-source projects such as [Langroid](https://github.com/langroid/langroid). I also found bugs in open-source tools [Syft](https://github.com/anchore/syft/issues/4401).
 
 ---
 
 ## Research Areas
 
-- **IoT Safety & Privacy** — Automated vulnerability detection in IoT systems: [[USENIX'22](https://www.usenix.org/system/files/sec22-chen-yunang-practical.pdf), [IEEE TSE'22](https://ieeexplore.ieee.org/document/9785922), [ISSTA'20 🏆](https://ieeexplore.ieee.org/document/9785922)]
+- **Agentic AI & LLMs** — LLM agents for software dependency management and program repair: [[DIMVA’26](https://arxiv.org/abs/2507.15984), [DSN'25 🏆](https://ieeexplore.ieee.org/abstract/document/11068824), [EMSE'25](https://link.springer.com/article/10.1007/s10664-025-10687-1), [NeurIPS'24 OWA](https://openreview.net/forum?id=I396ZJFZLq)]
 
-- **Software Debloating** — Removing unnecessary code to reduce attack surface: [[EuroS&P'22](https://ieeexplore.ieee.org/abstract/document/9797349), [SIGMETRICS'24](https://dl.acm.org/doi/abs/10.1145/3639032), [FEAST'24](https://dl.acm.org/doi/abs/10.1145/3689937.3695792)] — Tools: [FitStack](https://www.fitstack.dev), LMCAS, SLASH
+- **Software Debloating** — Removing unnecessary code to reduce attack surface: [[SIGMETRICS'24](https://dl.acm.org/doi/abs/10.1145/3639032), [FEAST'24](https://dl.acm.org/doi/abs/10.1145/3689937.3695792), [EuroS&P'22](https://ieeexplore.ieee.org/abstract/document/9797349)] — Tools: [FitStack](https://www.fitstack.dev), LMCAS, SLASH
 
-- **Agentic AI & LLMs** — LLM agents for software dependency management and program repair: [[DSN'25 🏆](https://ieeexplore.ieee.org/abstract/document/11068824), [EMSE'25](https://link.springer.com/article/10.1007/s10664-025-10687-1), [NeurIPS'24 OWA](https://openreview.net/forum?id=I396ZJFZLq)]
+- **AI/ML Robustness** — Adversarial attacks and defenses for ML systems: [[SIGMETRICS'24](https://dl.acm.org/doi/abs/10.1145/3639032), [NeurIPS'22](https://openreview.net/pdf?id=WBp4dli3No6)]
 
-- **AI/ML Robustness** — Adversarial attacks and defenses for ML systems: [[NeurIPS'22](https://openreview.net/pdf?id=WBp4dli3No6), [SIGMETRICS'24](https://dl.acm.org/doi/abs/10.1145/3639032)]
-
-- **Android Security** — Inter-app communication and dynamically loaded code vulnerabilities: [[IEEE TIFS'20](https://ieeexplore.ieee.org/abstract/document/9017933), [INFOCOM'19](https://ieeexplore.ieee.org/abstract/document/8737637)]
+- **Mobile and IoT Security** — Automated vulnerability detection in IoT and mobile systems: [[USENIX'22](https://www.usenix.org/system/files/sec22-chen-yunang-practical.pdf), [IEEE TSE'22](https://ieeexplore.ieee.org/document/9785922), [ISSTA'20 🏆](https://ieeexplore.ieee.org/document/9785922), [IEEE TIFS'20](https://ieeexplore.ieee.org/abstract/document/9017933), [INFOCOM'19](https://ieeexplore.ieee.org/abstract/document/8737637)]
 
 [→ Full research details](research/) &nbsp;|&nbsp; [→ All publications](publications/)
 
