@@ -86,3 +86,17 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<!-- Background audio -->
+<audio id="pageAudio" preload="auto">
+  <source src="{{ '/assets/audio/epicaly-short-113909.mp3' | relative_url }}" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const audio = document.getElementById('pageAudio');
+    audio.play().catch(function(error) {
+      console.log('Audio playback failed:', error);
+    });
+  });
+</script>
