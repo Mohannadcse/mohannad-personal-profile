@@ -9,6 +9,8 @@ nav_order: 2
 
 My research integrates program analysis, large language models (LLMs), and cybersecurity techniques to evaluate and enhance application safety across Android, IoT, AI/LLM ecosystems, and software supply chains.
 
+[Research-to-Impact (PDF)]({{ '/assets/files/research-to-impact.pdf' | relative_url }})
+
 ## Research Areas
 
 ### IoT Safety and Privacy
